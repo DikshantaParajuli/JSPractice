@@ -12,13 +12,28 @@
     <body>
         <div class="container">
             <div class="todo">
-                <h2 class="todoTitle">To Do App</h2>
-                <div class="row">
-                    <input type="text" placeholder="Add Items" id="textBox">
-                    <button type="submit" id="submitButton" >Submit </button>          
-                </div>
-            </div>
+                <form name="todoForm" method="post">
+                
+                        <h2 class="todoTitle">To Do App</h2>
+                        <div class="row">
+                            <input type="text" placeholder="Add Items" id="todoItems">
+                                    
+                        </div>
+                        <div class="row">
+                            <button type="submit" id="submitButton" >Submit </button>  
+                        </div>
+                        <div class="listItems">
+                            <ul>
+                                <li id="addedItems">
             
+                                </li>
+                            </ul>
+                        </div>
+                    
+                    
+                    
+                </form>
+            </div>
         </div>
         
         <script src="todo.js" async defer></script>
