@@ -6,3 +6,8 @@ submitButton.onclick(){
     
 }
 
+
+// Added Delete Function
+
+// Delete button will remove selected todo items
+
