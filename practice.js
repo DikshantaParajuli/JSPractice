@@ -190,6 +190,18 @@ function third()
 {
   console.log(3)
 }
-first()
-second()
-third()
+first();
+
+third();
+
+const promise = new Promise((resolve, reject) => {
+  resolve({ user: 'dk'})
+})
+
+promise
+.then((data) => {
+  console.log(data)
+})
+.catch((err) => {
+  console.log(err)
+})
