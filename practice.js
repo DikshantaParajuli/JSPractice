@@ -1,8 +1,8 @@
-// const studenta = {
-//   name: "Dk",
-//   age: 25,
-//   level: "Masters Degree"
-// };
+const studenta = {
+  name: "Dk",
+  age: 25,
+  level: "Masters Degree"
+};
 // const studentb = {
 //   name: "Dkm",
 //   age: 27,
