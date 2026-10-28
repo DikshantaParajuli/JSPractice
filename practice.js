@@ -19,10 +19,10 @@
 
 // Question Two
 
-// const person1 = {
-//   name: "Dk",
-//   age: 25
-// }
+const person1 = {
+  name: "Dk",
+  age: 25
+}
 // const person2 = {
 //   name: "Dk2",
 //   age: 25
